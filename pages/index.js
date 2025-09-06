@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 
+
+
+
 export default function Home() {
   return (
     <div className="bg-neutral-50 min-h-screen text-neutral-900">
@@ -16,6 +19,7 @@ export default function Home() {
       </section>
 
       <section className="max-w-5xl mx-auto px-6 py-16">
+        <h1>Hello from Nishal's Portfolio</h1>
         <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
         <p className="text-lg text-center max-w-3xl mx-auto">
           Goal-oriented DevOps and Cloud Engineer with 3.9 years of experience specializing in CI/CD pipelines, infrastructure automation, and cloud deployments. Skilled in Jenkins, Nexus, Ansible, Terraform, Docker, Kubernetes, AWS, and DevSecOps tools.
