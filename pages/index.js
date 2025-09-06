@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 min-h-screen text-gray-900">
+    <div className="bg-neutral-50 min-h-screen text-neutral-900">
       <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
         <motion.h1 className="text-5xl font-bold mb-4" initial={{opacity:0, y:20}} animate={{opacity:1, y:0}}>Hi, I'm Nishal</motion.h1>
         <p className="text-xl max-w-2xl mb-6">DevOps & Cloud Engineer | CI/CD | AWS | Kubernetes | Terraform</p>
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="bg-gray-100 py-16">
+      <section className="bg-neutral-50 py-16">
         <h2 className="text-3xl font-bold text-center mb-8">Core Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6">
           {["Jenkins","Terraform","Ansible","Docker","Kubernetes","AWS","SonarQube","Grafana","GitLab"].map((skill, i) => (
@@ -36,8 +36,8 @@ export default function Home() {
         <div className="space-y-6">
           <div className="shadow-lg bg-white rounded-xl p-6">
             <h3 className="text-xl font-bold">SRE & DevOps Engineer - Infosys</h3>
-            <p className="text-sm text-gray-600">Apr 2025 – Present | Client: Nuskin</p>
-            <ul className="list-disc ml-6 mt-2 text-gray-700">
+            <p className="text-sm text-neutral-900">Apr 2025 – Present | Client: Nuskin</p>
+            <ul className="list-disc ml-6 mt-2 text-neutral-900">
               <li>Developed complex CI/CD pipelines improving deployment efficiency by 40%.</li>
               <li>Automated server provisioning & CDN (Fastly) services using Terraform & Ansible.</li>
               <li>Implemented AWS infrastructure with EC2, EKS, RDS, and Load Balancers.</li>
@@ -45,8 +45,8 @@ export default function Home() {
           </div>
           <div className="shadow-lg bg-white rounded-xl p-6">
             <h3 className="text-xl font-bold">DevOps Engineer - Tech Mahindra</h3>
-            <p className="text-sm text-gray-600">Dec 2021 – Apr 2025 | Client: CelcomDigi</p>
-            <ul className="list-disc ml-6 mt-2 text-gray-700">
+            <p className="text-sm text-neutral-900">Dec 2021 – Apr 2025 | Client: CelcomDigi</p>
+            <ul className="list-disc ml-6 mt-2 text-neutral-900">
               <li>Managed CI/CD tools (Jenkins, Nexus, Ansible) and resolved pipeline issues.</li>
               <li>Implemented containerized deployments using Docker & Kubernetes with Helm.</li>
               <li>Integrated SonarQube & JUnit improving build reliability to 95%.</li>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-16">
+      <section className="bg-neutral-50 py-16">
         <h2 className="text-3xl font-bold text-center mb-8">Certifications</h2>
         <div className="flex flex-wrap justify-center gap-6">
           {["AWS Certified Solutions Architect - Associate","AWS Cloud Practitioner","Azure Fundamentals AZ-900"].map((cert, i) => (
